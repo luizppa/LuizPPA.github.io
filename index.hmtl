@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>O Daw e Suas Formas</title>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <style media="screen">
+        .bg-orange{
+          background-color: #f4511e;
+          color: white;
+        }
+        .bg-grey {
+          background-color: #f6f6f6;
+          color: black;
+        }
+        .navbar {
+          margin-bottom: 0;
+          background-color: #f4511e;
+          z-index: 9999;
+          border: 0;
+          font-size: 12px !important;
+          line-height: 1.42857143 !important;
+          letter-spacing: 4px;
+          border-radius: 0;
+          font-family: Montserrat, sans-serif;
+        }
+        .navbar li a, .navbar .navbar-brand {
+            color: #fff !important;
+        }
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: #f4511e !important;
+            background-color: #fff !important;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: #fff !important;
+        }
+      </style>
+  </head>
+  <body>
+  <div data-spy="scroll" data-target="#myNavbar" data-offset="60">
+    <div class="panel panel-default bg-orange" style="margin-top: 50px;">
+      <div class="panel-body">
+        <h1>O que é o Daw...</h1>
+        <p class="lead">
+            Desde os primeiros registros de atividade, aparentemente sem propósito, na turma de informática, o cutelo, emailto, os jogos do The Licia, o Ping em sí,
+          podemos observar um padrâo de burrice nos atos de nossos colegas. Depois de algum estudo, foi confirmada a existência de uma entidade superior ao nosso
+          plano existêncial que pode ou não ter uma instância física. Acredita-se que ela é o que nos leva a cometer tais atos de estupidez cavalar. Essa entidade
+          recebeu o nome de "Daw" e os indivíduos sucetíveis a ela ficaram conhecidos como "daw" com estudos mais profundos, foram descobertos novos níveis e variações,
+          as principais listadas abaixo.
+        </p>
+      </div>
+    </div>
+    <div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="margin-top: 0px;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">AS FORMAS DO DAW</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#DAW">DAW</a></li>
+              <li><a href="#KANK">KANK</a></li>
+              <li><a href="#SEMI-KANK">SEMI-KANK</a></li>
+              <li><a href="#KEK">KEK</a></li>
+              <li><a href="#OLIVIER">OLIVIER</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="DAW" class="container-fluid">
+      <div class="panel panel-default bg-grey">
+        <div class="panel-body">
+        <h1>O Daw</h1>
+        <p class="lead">
+          Essa é a forma primordial da entidade, sua forma mais pura e sutil. Os primeiros eventos registrados envolvendo o Daw datam de 2014. Nessa forma, o daw nos leva a
+          erros como falta de ";" e etc. Quando o daw se manifesta em um indivíduo, ele se propaga radiando sua forma física fazendo com que os demais indivíduos sucetíveis
+          ao Daw sejam afetados resultando em um movimento repetitivo onde o indivíduo descreve um arco com o braço e emite um som ressoante em sol maior.
+        <br>
+        <br>
+          Indivíduos conhecidos diagnosticados com o Daw:
+          <br>
+          <br>
+          <div style="width: 40%">
+            <a href="#" class="thumbnail">
+              <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/11705238_651015908364399_6527084315726326477_n.jpg?oh=76a129553f4290528974b270ff03d1d2&oe=57B301C6&__gda__=1471992143_b260ae1ebacb6bb63b575ee1b51f2657" alt="Foto do daw">
+            </a>
+          <span class="label label-success">DAW</span>
+          <br>
+          Ilmer Oliveira
+          <br>
+          Idade: 17
+          <br>
+          Nível de Daw (em escala Olivier): 0.2 o/p
+          </div>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div id="KANK" class="container-fluid" class="content">
+      <div class="panel panel-default bg-grey">
+        <div class="panel-body">
+        <h1>O Kank</h1>
+        <p class="lead">
+          A segunda forma conhecida do Dae foi denominada "Kank", o nome foi sugerido pelo daw que realizou o primeiro registro, M. M. Lima. Nesse nível mais intenso do Daw, as
+          características observáveis do Daw são agravadas.
+          <br>
+          <br>
+          Indivíduos conhecidos diagnosticádos com o Kank:
+          <br>
+          <br>
+          <div style="width: 40%">
+            <a href="#" class="thumbnail">
+              <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-9/12109260_763007423822089_1227302518504246082_n.jpg?oh=91c72ea8ddb00588a372a890e78149e7&oe=57B4A4AF&__gda__=1471630192_46ce36acc025f366aea0bf55f019bf8e" alt="Foto do kank">
+            </a>
+          <span class="label label-warning">KANK</span>
+          <br>
+          Marcelo Medeiros
+          <br>
+          Idade: 17
+          <br>
+          Nível de Daw (em escala Olivier): 0.4 o/p
+          </div>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div id="SEMI-KANK" class="container-fluid">
+      <div class="panel panel-default bg-grey">
+        <div class="panel-body">
+        <h1>Semi-Kank</h1>
+        <p class="lead">
+          O Semi-Kank acontece quando o Daw se manifesta em forma de Kank em umindivíduo muito sucetível ao Daw, assim, as efeitos são mais notáveis. Um kank pode evoluir para semi-kank por eventualidade,
+          ação do Kank por tempo prolongado ou por experiência traumática. O Semi-Kank pode fazer com que o indivíduo faça coisas estúpidas como apoiar Jair Bolsonaro e dizer "Bolsomito". O Semi-Kank
+          aumenta o nível de Kank do indivíduo em 123%.
+          <br>
+          <br>
+          Indivíduos diagnosticádos com Semi-Kank:
+          <br>
+          <br>
+          <div style="width: 40%">
+            <a href="#" class="thumbnail">
+              <img src="https://scontent-gru2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12417747_1118002891584731_3835214936091314196_n.jpg?oh=e32d4e7bafee8342866ba949256bcbe8&oe=57757AEF" alt="Foto do kank">
+            </a>
+          <span class="label label-warning">KANK</span>
+          <br>
+          Gabriel Carneiro
+          <br>
+          Idade: 18
+          <br>
+          Nível de Daw (em escala Olivier): 0.5 o/p
+          </div>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div id="KEK" class="container-fluid">
+      <div class="panel panel-default bg-grey">
+        <div class="panel-body">
+        <h1>O Kek</h1>
+        <p class="lead">
+          O Kek é uma variação do DAW diferente do Kank, é comum que idivíduos que apresentem o Daw apresentem também o Kek em certos momentos, em geral, quando existe um grande
+          número de indivíduos com Daw por perto. O Kek faz com que o indivíduo tenha dificuldade em compreender conceitos e formar opiniões coerentes. O Kek por sí só não é um
+          grande agravante do Daw, mas em condições extremas, o Kek pode evoluir para Olivier, um nível supremo de Daw.
+          <br>
+          <br>
+          Indivíduos diagnosticádos com Kek:
+          <br>
+          <br>
+          <div style="width: 40%">
+            <a href="#" class="thumbnail">
+              <img src="https://scontent-gru2-1.xx.fbcdn.net/hphotos-xaf1/t31.0-8/10014971_262208080618084_2609494018021462028_o.jpg" alt="Foto do kank">
+            </a>
+
+          <span class="label label-danger">KEK</span>
+          <br>
+          Ariel Augusto
+          <br>
+          Idade: 16
+          <br>
+          Nível de Daw (em escala Olivier): 0.3 o/p
+          </div>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div id="OLIVIER" class="container-fluid">
+      <div class="panel panel-default bg-grey">
+        <div class="panel-body">
+        <h1>Olivier</h1>
+        <p class="lead">
+          Olivier é um nível raro do Daw, existe apenas um caso relatado. O nome é uma homenagem ao daw que apresentou pela primeira vez esse nível elevado. A essa altura,
+          o indivíduo é incapaz de compreender sentenças simples, formular frases e desenvolver qualquer tipo de pensamento.
+          <br>
+          <br>
+          O único caso sa documentado:
+          <br>
+          <br>
+          <div style="width: 40%">
+            <a href="#" class="thumbnail">
+              <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/12509682_1038781452810858_4212806282199726674_n.jpg?oh=6b45170f453783a052db4b354dc220ae&oe=5771CF3D&__gda__=1471122948_e6f8bbf696d4c6a5f6db7e065a21d2c7" alt="Foto do kank">
+            </a>
+
+          <span class="label label-default">KEK</span>
+          <br>
+          Olivier Bruno
+          <br>
+          Idade: 16
+          <br>
+          Nível de Daw (em escala Olivier): 1 o/p
+          </div>
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
