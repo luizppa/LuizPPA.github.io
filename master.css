@@ -57,12 +57,12 @@ body{
   border-radius: 5px;
 }
 .card-cover-brown{
-  background-color: rgba(82, 52, 22, 0.7);
+  background-color: rgba(82, 52, 22, 0.5);
   padding: 15px;
   color: white;
 }
 .card-cover-brown:hover{
-  background-color: rgba(82, 52, 22, 0.8);
+  background-color: rgba(82, 52, 22, 0.7);
 }
 footer.page-footer{
   background-color: #523416;
