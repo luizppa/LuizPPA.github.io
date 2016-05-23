@@ -3,61 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>Luiz Philippe</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
+    <!--=======NavBar==========-->
     <nav>
       <div class="nav-wrapper bg-brown">
         <a href="#" class="brand-logo">Curriculum</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href=".html">Projetos</a></li>
           <li><a href=".html">Habilidades</a></li>
-          <li><a href=".html">Page 3</a></li>
+          <li><a class="dropdown-button" href="#" data-activates="dropdown1">Idioma <i class="fa fa-globe"></i></a></li>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a class="color-light-bg" href="index.html">Portugês</a></li>
+              <li><a class="color-light-bg" href="index-eng.html">Inglês</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </nav>
+    <!--===========Apresentação==============-->
     <div class="main-painel">
         <center><a href="index.html"><img class="my-pic"src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xal1/v/t1.0-9/12360415_1013318542065136_8847469482404309532_n.jpg?oh=d495d0b3416d1df305dcd329e6572385&oe=57DE6C85&__gda__=1473553833_66a9e317236f39d0df4e307441d05236"/></a></center>
       </div>
     </div>
+    <!--============Conteúdo===============-->
     <div class="canvas">
-      <div class="col3 card" style="background-image: url(img/projetos.png);">
+      <div class="col2 card" style="background-image: url(img/projetos.png);">
         <a href="#">
           <div class="card-cover-brown">
-            <center><h3>Projetos</h3></center>
+            <center>
+              <h3>Projetos</h3>
+              <p>
+                <i class="fa fa-coffee fa-3x"></i>
+              </p>
+            </center>
           </div>
         </a>
       </div>
-      <div class="col4 painel">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Margins are:
-        </p>
-        <ul>
-          <li>left: 10%</li>
-          <li>right: 10%</li>
-          <li>bottom: 20%</li>
-          <li>top: 20%</li>
-        </ul>
+      <div class="col2 card" style="background-image: url(img/programing-language.jpg);">
+        <a href="#">
+          <div class="card-cover-brown">
+            <center>
+              <h3>Habilidades</h3>
+              <p>
+                <i class="fa fa-graduation-cap fa-3x"></i>
+              </p>
+            </center>
+          </div>
+        </a>
       </div>
     </div>
     <footer class="page-footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            <h5 class="white-text">Entre em contato!</h5>
+              <p class="white-text">
+                Agradecimento ao Colégio Técnico da UFMG (Coltec), especialmente, ao setor de informática.
+                Esta página tem como único objetivo apresentar minhas habilidades e conhecimentos, é puramente educacional, informativa e pessoal. Se tivermos quaisquer problema de direitos autorais, entre em contato e o conteúdo será removido com prazer.
+              </p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Contato</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="https://github.com/LuizPPA"><i class="fa fa-github"></i> GitHub</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://github.com/LuizPPA"><i class="fa fa-github fa-2x"></i> GitHub</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/luiz.philippe.75"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://plus.google.com/107243702642027504601/posts"><i class="fa fa-google-plus fa-2x"></i> Google+</a></li>
+                <li class="grey-text text-lighten-3"><i class="fa fa-envelope-o fa-2x"></i> luizphilippep@gmail.com</li>
+                <li class="grey-text text-lighten-3"><i class="fa fa-phone fa-2x"></i> +55 (31)8923-2956</li>
               </ul>
             </div>
           </div>
@@ -68,5 +87,6 @@
             </div>
           </div>
     </footer>
+    </script>
   </body>
 </html>
