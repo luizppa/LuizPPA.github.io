@@ -84,3 +84,9 @@ footer.page-footer{
 .color-light-bg{
   color: #523416;
 }
+.link{
+  color: #523416;
+}
+.link:visited{
+  color: #291A0B;
+}
