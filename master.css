@@ -14,8 +14,8 @@ body{
   letter-spacing: 4px;
 }
 .canvas{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 80px;
   margin-bottom: 20%;
 }
@@ -31,12 +31,16 @@ body{
   width: 25%;
   height: 25%;
 }
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
 .col1, .col2, .col3, .col4, .col5, .col6 {
   border-radius: 5%;
   padding: 15px;
-  float: left;
 }
-
 .col1 {
   width: 14.666%;
 }
@@ -97,7 +101,7 @@ footer.page-footer{
   overflow: auto;
   zoom: 1;
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .col1, .col2, .col3, .col4, .col5, .col6 {
     padding: 15px;
     float: left;
