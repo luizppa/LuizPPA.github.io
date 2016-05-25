@@ -1,3 +1,6 @@
+.mobile-navbar{
+  display: none;
+}
 .bg-brown {
   background-color: #523416;
 }
@@ -117,5 +120,16 @@ footer.page-footer{
     padding: 0px;
     border: 0px;
     margin: 5px;
+  }
+}
+@media (max-width: 992px) {
+  .mobile-navbar{
+    display: block;
+    margin: 0;
+    border: 0;
+  }
+  .mobile-links{
+    color: white;
+    font-size: 14px;
   }
 }
