@@ -82,7 +82,7 @@ div{
 .card{
   padding: 0px;
   border: 0px;
-  margin: 5px;
+  border-radius: 0px;
 }
 .card-cover-brown{
   background-color: rgba(82, 52, 22, 0.5);
@@ -90,7 +90,7 @@ div{
   color: white;
 }
 .card-cover-brown:hover{
-  background-color: rgba(82, 52, 22, 0.7);
+  background-color: rgba(82, 52, 22, 0.8);
 }
 footer.page-footer{
   background-color: #523416;
