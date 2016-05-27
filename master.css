@@ -88,7 +88,6 @@ div{
   -webkit-box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
   -moz-box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
   box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
-  border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
@@ -99,7 +98,6 @@ div{
 .card{
   padding: 0px;
   border: 0px;
-  border-radius: 0px;
 }
 .card-cover-brown{
   background-color: rgba(82, 52, 22, 0.5);
