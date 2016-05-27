@@ -7,7 +7,7 @@ body{
 div{
   background-size: cover;
 }
-.mobile-navbar{
+.mobile{
   display: none;
 }
 .bg-brown {
@@ -45,7 +45,6 @@ div{
   float: left;
 }
 .col1, .col2, .col3, .col4, .col5, .col6 {
-  border-radius: 5%;
   padding: 15px;
 }
 .col1 {
@@ -64,6 +63,24 @@ div{
   width: 81,333%;
 }
 .col6 {
+  width: 98%;
+}
+.col1-sm {
+  width: 14.666%;
+}
+.col2-sm {
+  width: 31.333%;
+}
+.col3-sm {
+  width: 48%;
+}
+.col4-sm {
+  width: 68%;
+}
+.col5-sm {
+  width: 81,333%;
+}
+.col6-sm {
   width: 98%;
 }
 .painel{
@@ -126,7 +143,7 @@ footer.page-footer{
   }
 }
 @media (max-width: 992px) {
-  .mobile-navbar{
+  .mobile{
     display: block;
     margin: 0;
     border: 0;
