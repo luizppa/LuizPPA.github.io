@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Luiz Philippe</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <script src="main.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/gif">
+  </head>
+  <body>
+    <!--=======NavBar==========-->
+    <nav>
+      <div class="nav-wrapper bg-brown" style="margin-bottom: 0;">
+        <a href="index.html" class="brand-logo">Luiz Philippe</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
+          <li><a href="info.html">Informmações</a></li>
+          <li><a class="dropdown-button" href="#" data-activates="dropdown1">Idioma <i class="fa fa-globe"></i></a></li>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a class="color-light-bg" href="index.html">Portugês</a></li>
+              <li><a class="color-light-bg" href="index-eng.html">Inglês</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="mobile bg-brown">
+      <div >
+        <ul>
+          <li class="col2-sm"><center><a class="mobile-links" href="projetos.html">Projetos</a></center></li>
+          <li class="col2-sm"><center><a class="mobile-links" href="habilidades.html">Habilidades</a></center></li>
+          <li class="col2-sm"><center><a class="mobile-links" href="info.html">Informações</a></center></li>
+        </ul>
+      </div>
+    </nav>
+    <!--===========Apresentação==============-->
+    <div class="main-painel">
+        <center><a href="index.html"><img class="my-pic"src="img/mypic.jpg"/></a></center>
+        <center><a class="waves-effect waves-light btn brown" href="info.html">Currículo</a></center>
+    </div>
+    <!--============Conteúdo===============-->
+    <div class="canvas clearfix">
+      <div class="col6 left painel font-color-brown">
+        <center><h3>Perdão pelo vacilo, João<br></h3></center>
+        <div class="col3 right card" style="background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/018/062/2fa4810.jpg);">
+          <a href="main.js" download>
+            <div class="card-cover-brown">
+              <center>
+                <h3>Download do Arquivo</h3>
+                <p>
+                  <i class="fa fa-download fa-3x"></i>
+                </p>
+              </center>
+            </div>
+          </a>
+        </div>
+        <a class="link" target="_blank" href="https://github.com/DAW-2016/E09-javascript-pt1">
+          <h4>
+            JavaScript parte 1:<br>
+          </h4>
+        </a>
+        <p>
+          <a class="waves-effect waves-light btn brown" onclick="exercicio1_1(5)">Exercício 1</a>
+          <a class="waves-effect waves-light btn brown" onclick="exercicio1_2()">Exercício 2</a>
+          <a class="waves-effect waves-light btn brown" onclick="exercicio1_3()">Exercício 3</a>
+        </p>
+        <br>
+        <br>
+        <a class="link" target="_blank" href="https://github.com/DAW-2016/E10-JavaScript-pt2">
+          <h4>
+            JavaScript parte 2:<br>
+          </h4>
+        </a>
+        <p>
+          <a class="waves-effect waves-light btn brown" onclick="document.getElementById('resultado2').innerHTML = 'Resultado: '+exercicio2_1(5, 10)">Max (entre 5 e 10)</a>
+          <a class="waves-effect waves-light btn brown" onclick="document.getElementById('resultado2').innerHTML = 'Resultado: '+exercicio2_2(5, 10)">Min (entre 5 e 10)</a>
+          <a class="waves-effect waves-light btn brown" onclick="document.getElementById('resultado2').innerHTML = 'Resultado: '+exercicio2_3(10, 2)">10 é divisível por 2</a>
+          <a class="waves-effect waves-light btn brown" onclick="document.getElementById('resultado2').innerHTML = 'Resultado: '+exercicio2_3(9, 2)">9 é divisível por 2</a>
+          <a class="waves-effect waves-light btn brown" onclick="document.getElementById('resultado2').innerHTML = 'Resultado: '+exercicio2_4(func, 'Hello')">Retira as vogais de "Hello"</a>
+          <p id="resultado2">
+            Resultado:
+          </p>
+        </p>
+      </div>
+      <div class="col6 left painel font-color-brown">
+        <center>
+          <i class="fa fa-user fa-4x font-color-brown"></i>
+          <h4>Sobre mim</h4>
+        </center>
+        <p>
+          Estudante de informática do Colégio Técnico da Universidade Federal de Minas Gerais. Durante os últimos três anos cursando o ensino técnico na área
+          desenvolvi um amplo interesse nas áreas de robótica e mecânica. Após a conclusão do curso técnico (2016) pretendo cursar ensino superior em
+          engenharia elétrica.
+          <br>
+          <br>
+          Devido ao meu interesse nas áreas de computação e mecânica (tecnologia em geral) sou muito esforçado quando se trata de adquirir conhecimentos e
+          concluir quaisquer projetos que envolva tais matérias. Contudo, sou interessado e aberto a novos assuntos a que posso ser apresentado visando
+          sempre desenvolvimento pessoal.
+        </p>
+      </div>
+      <div class="col3 left painel font-color-brown" style="min-height: 390px;">
+        <center>
+          <i class="fa fa-laptop fa-4x font-color-brown"></i>
+          <h4>Técnico</h4>
+        </center>
+        <p>
+          Curso atualmente o técnico de informática no <a class="link" href="http://www.coltec.ufmg.br/coltec/">Colégio Técnico da UFMG</a>. Três anos do curso
+          me ofereceram muitas experiencias e amadurecimento social e profisional, desenvolvi habilidades individuais e de grupo além de diversas competências
+          de trabalho. Adquiri conhecimento em diversas linguagens de programação e evoluí muito minhas habilidades de raciocínio lógico.
+        </p>
+      </div>
+      <div class="col3 right card" style="background-image: url(img/projetos.png);">
+        <a href="projetos.html">
+          <div class="card-cover-brown">
+            <center>
+              <h3>Projetos</h3>
+              <p>
+                <i class="fa fa-coffee fa-3x"></i>
+              </p>
+            </center>
+          </div>
+        </a>
+      </div>
+      <div class="col3 right card" style="background-image: url(img/habilidades.jpg);">
+        <a href="habilidades.html">
+          <div class="card-cover-brown">
+            <center>
+              <h3>Habilidades</h3>
+              <p>
+                <i class="fa fa-graduation-cap fa-3x"></i>
+              </p>
+            </center>
+          </div>
+        </a>
+      </div>
+      <div class="col3 right card" style="background-image: url(img/info.jpg);">
+        <a href="info.html">
+          <div class="card-cover-brown">
+            <center>
+              <h3>Mais Informação</h3>
+              <p>
+                <i class="fa fa-info fa-3x"></i>
+              </p>
+            </center>
+          </div>
+        </a>
+      </div>
+    </div>
+    <a href="index-eng.html">
+      <center>
+        <p class="font-color-brown">
+          Eng
+        </p>
+        <p class="font-color-brown">
+          <i class="fa fa-globe"></i>
+        </p>
+      </center>
+    </a>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Entre em contato!</h5>
+              <p class="white-text">
+                Agradecimento ao Colégio Técnico da UFMG (Coltec), especialmente, ao setor de informática.
+                Esta página tem como único objetivo apresentar minhas habilidades e conhecimentos, é puramente educacional, informativa e pessoal. Se tivermos quaisquer problemas relacionados a direitos autorais, entre em contato e o conteúdo será removido com prazer.
+              </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contato</h5>
+              <ul>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://github.com/LuizPPA"><i class="fa fa-github fa-2x"></i> GitHub</a></li>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/luiz.philippe.75"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a></li>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://plus.google.com/107243702642027504601/posts"><i class="fa fa-google-plus fa-2x"></i> Google+</a></li>
+                <li class="grey-text text-lighten-3"><i class="fa fa-envelope-o fa-2x"></i> luizphilippep@gmail.com</li>
+                <li class="grey-text text-lighten-3"><i class="fa fa-phone fa-2x"></i> +55 (31)8923-2956</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <div class="footer-copyright">
+            <div class="container">
+            <p>
+              Feito por <i class="fa fa-github"></i>LuizPPA com auxílio de <a class="grey-text text-lighten-4" href="http://materializecss.com/">Materialize</a>
+            </p>
+            </div>
+          </div>
+    </footer>
+    </script>
+  </body>
+</html>
