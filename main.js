@@ -91,3 +91,13 @@ function exercicio3_3(texto){
   document.getElementById("diario").appendChild(document.createElement("BR"));
   document.getElementById("diario").appendChild(node);
 }
+//--------------------javascript funções de alta ordem------------------------//
+function exercicio4_1(arrays){
+  var result = [];
+  for (var i = 0; i < arrays.length; i++) {
+    for (var j = 0; j < arrays[i].length; j++) {
+      result.push(arrays[i][j]);
+    }
+  }
+  return result;
+}
