@@ -101,3 +101,63 @@ function exercicio4_1(arrays){
   }
   return result;
 }
+//-------------------javascript exercicios de revisão-------------------------//
+function exercicio5_1(param, vet, insert){
+  return param(insert, vet);
+}
+function crescente(insert, vet){
+  var done = false;
+  if (vet[vet.length-1] < insert || vet[vet.length-1] == insert) {
+    vet[vet.length] = insert;
+    done = true;
+  }
+  for(var i = vet.length; i > 0; i--){
+    if(done==false){
+      if(vet[i-1] < insert || vet[i-1] == insert && insert < vet[i]){
+        vet[i] = insert;
+        done = true;
+      }
+      else{
+        vet[i] = vet[i-1];
+      }
+    }
+  }
+  if(done==false){
+    vet[0] = insert;
+  }
+  return vet;
+}
+function decrescente(insert, vet) {
+  var done = false;
+  if (vet[vet.length-1] > insert || vet[vet.length-1] == insert) {
+    vet[vet.length] = insert;
+    done = true;
+  }
+  for(var i = vet.length; i > 0; i--){
+    if(done==false){
+      if(vet[i-1] > insert || vet[i-1] == insert && insert > vet[i]){
+        vet[i] = insert;
+        done = true;
+      }
+      else{
+        vet[i] = vet[i-1];
+      }
+    }
+  }
+  if(done==false){
+    vet[0] = insert;
+  }
+  return vet;
+}
+function pares_impares(insert, vet){
+  if(insert%2 == 0){
+    for (var i = vet.length; i > 0; i--) {
+      vet[i] = vet[i-1];
+    }
+    vet[0] = insert;
+  }
+  else {
+    vet[vet.length] = insert;
+  }
+  return vet;
+}
