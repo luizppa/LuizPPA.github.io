@@ -161,3 +161,20 @@ function pares_impares(insert, vet){
   }
   return vet;
 }
+//-----------------------------javascript DOM---------------------------------//
+function exercicio6_1(){
+  var pics = document.getElementsByTagName("img");
+  for(var i = 0; i < pics.length; i ++){
+    pics[i].src = "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/018/062/2fa4810.jpg";
+  }
+}
+
+function exercicio6_2() {
+  var pics = document.getElementsByTagName("img");
+  var text;
+  for(var i = 0; i < pics.length; i ++){
+    text = pics[i].alt;
+    pics[i].tagName = "p"
+    pics.innerHTML = tet;
+  }
+}
