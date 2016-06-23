@@ -7,6 +7,9 @@ body{
 div{
   background-size: cover;
 }
+.foto-do-jao{
+  background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/018/062/2fa4810.jpg);
+}
 .mobile{
   display: none;
 }
