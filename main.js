@@ -1,11 +1,12 @@
 //-------------------------javascript parte 1---------------------------------//
 function exercicio1_1(a){
-  var list = "#";
-  for (var i = 0; i < a; i++) {
-    console.log(list);
-    for (var j = 0; j < i; i++) {
-      list.push(" #");
+  var list = "";
+  for (var i = 0; i <= a; i++) {
+    for (var j = 0; j < i; j++) {
+      list = list.concat(" #");
     }
+    console.log(list);
+    list="";
   }
 }
 function exercicio1_3(){
