@@ -9,6 +9,27 @@ function exercicio1_1(a){
     list="";
   }
 }
+function exercicio1_2(a){
+  var row1 = "";
+  var row2 = " ";
+  for (var i = 0; i < a; i++) {
+    row1 = row1.concat("# ");
+    row2 = row2.concat("# ");
+  }
+  if(a%2 == 0){
+    for (var i = 0; i < a/2; i++) {
+      console.log(row1);
+      console.log(row2);
+    }
+  }
+  else {
+    for (var i = 0; i < (a-1)/2; i++) {
+      console.log(row1);
+      console.log(row2);
+    }
+    console.log(row1);
+  }
+}
 function exercicio1_3(){
   for (var i = 0; i < 100; i++) {
     if (i%3 == 0 && i%5 == 0) {
