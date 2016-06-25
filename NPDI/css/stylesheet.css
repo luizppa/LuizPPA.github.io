@@ -1,0 +1,204 @@
+body{
+  background-color: #E7F5F5;
+}
+.bg-pix{
+  background-image: url("img/Fundo.png");
+  background-size: cover;
+}
+.nav-mobile{
+  display: none;
+}
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #367FFF;
+ box-shadow: 0 1px 0 0 #367FFF;
+}
+.input-field input[type=password]:focus {
+ border-bottom: 1px solid #367FFF;
+ box-shadow: 0 1px 0 0 #367FFF;
+}
+.bg-white{
+  background-color: white;
+}
+footer.page-footer{
+  background-color: #367FFF;
+}
+.canvas{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 80px;
+  margin-bottom: 5%;
+}
+.painel{
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
+  box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
+  margin: 5px;
+}
+.login{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 5%;
+}
+.bg-blue{
+  background-color: #367FFF;
+}
+.btn:hover{
+  background-color: #0561ff;
+}
+.btn-large:hover{
+  background-color: #0561ff;
+}
+.col1 {
+  width: 12.666%;
+}
+.col2 {
+  width: 29.333%;
+}
+.col3 {
+  width: 46%;
+}
+.col4 {
+  width: 66%;
+}
+.col5 {
+  width: 79,333%;
+}
+.col6 {
+  width: 96%;
+}
+.col1-sm {
+  width: 14.666%;
+}
+.col2-sm {
+  width: 31.333%;
+}
+.col3-sm {
+  width: 48%;
+}
+.col4-sm {
+  width: 68%;
+}
+.col5-sm {
+  width: 81,333%;
+}
+.col6-sm {
+  width: 98%;
+}
+.card{
+  padding: 0px;
+  border: 0px;
+  background-size: cover;
+}
+.card-cover-blue{
+  background-color: rgba(54, 127, 225, 0.5);
+  padding: 15px;
+  color: white;
+}
+.card-cover-blue:hover{
+  background-color: rgba(54, 127, 225, 0.8);
+}
+.busca{
+  padding-right: 8%;
+}
+.outdor{
+  padding: 0;
+  padding-left: 5%;
+  padding-top: 15px;
+  margin-left: 0%;
+  margin-right: 5%;
+  border: 0;
+  max-height: 45%;
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.cartaz{
+  width: 40%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.logo{
+  font-size: 32px;
+  line-height: 38px;
+  padding: 8px
+}
+.mobile{
+  display: none;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+.menu{
+  width: 40%;
+}
+.myInput{
+  padding-left: 15px;
+  padding-top: 35px;
+}
+@media (max-width: 1315px) {
+  .card-text {
+      font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .mobile{
+    display: block;
+  }
+  .outdor{
+    display: none;
+  }
+  .cartaz {
+    height: 130px;
+    width: 94.71px;
+    padding: 8px;
+    float: left;
+  }
+  .menu{
+    width: 100%;
+  }
+  .card-text {
+      font-size: 20px;
+  }
+}
+@media (max-width: 1450px) {
+  .nav-mobile{
+    display: block;
+  }
+  .nav-desk{
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .col1 {
+    width: 96%;
+  }
+  .col2 {
+    width: 96%;
+  }
+  .col3 {
+    width: 96%;
+  }
+  .col4 {
+    width: 96%;
+  }
+  .col5 {
+    width: 96%;
+  }
+  .col6 {
+    width: 96%;
+  }
+}
