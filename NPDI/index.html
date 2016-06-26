@@ -24,11 +24,19 @@
           <li><a href="disciplinas.html">Disciplinas</a></li>
           <li><a href="galeria.html">Galeria</a></li>
           <li><a href="links.html">Links</a></li>
-          <li><a href="parcerias.html">Parcerias</a></li>
           <li class="right"><a href="login.html">Login</a></li>
         </ul>
       </div>
     </nav>
+  </div>
+  <!--Nav Mobile-->
+  <div class="nav-mobile">
+    <a href="sobre.html"><center><h4 class="fill bg-blue white-font mobile-menu">Sobre o NPDI</h4></center></a>
+    <a href="projetos.html"><center><h4 class="fill bg-blue white-font mobile-menu">Projetos</h4></center></a>
+    <a href="disciplinas.html"><center><h4 class="fill bg-blue white-font mobile-menu">Disciplinas</h4></center></a>
+    <a href="galeria.html"><center><h4 class="fill bg-blue white-font mobile-menu">Galeria</h4></center></a>
+    <a href="links.html"><center><h4 class="fill bg-blue white-font mobile-menu">Links</h4></center></a>
+    <a href="login.html"><center><h4 class="fill bg-blue white-font mobile-menu">Login</h4></center></a>
   </div>
   <!--Fim da navbar-->
   <div class="outdor clearfix">
@@ -72,25 +80,15 @@
       <p>
         O Núcleo de Processamento Digital de Imagens do Departamento de Ciência da Computação da UFMG tem como objetivo o desenvolvimento de pesquisa e a formação humana nas áreas de processamento digital de imagens e vídeos, recuperação de informação visual e sistemas de informação multimídia para acervos históricos.
       </p>
-      <h3>Equipe</h3>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header">Coordenadores</div>
-          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </li>
-        <li>
-          <div class="collapsible-header">Membros Atuais</div>
-          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </li>
-        <li>
-          <div class="collapsible-header">Membros Atingos</div>
-          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </li>
-      </ul>
-      <p id="teste">
-
-      </p>
-      <a class="waves-effect waves-light btn bg-blue" href="novaPostagem.html">Nova Postagem</a>
+      <div class="col6 left card">
+        <a href="parceirias.html">
+          <div class="card-cover-blue">
+            <center>
+              <h4>Parceiros</h4>
+            </center>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
     <footer class="page-footer">
@@ -123,12 +121,5 @@
         </div>
       </div>
     </footer>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.collapsible').collapsible({
-          accordion : false
-        });
-      });
-    </script>
   </body>
 </html>

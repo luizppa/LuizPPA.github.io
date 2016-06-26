@@ -5,11 +5,13 @@
     <title>NPDI</title>
     <link rel="icon" href="img/npdi25cartazmin.png" type="image/gif">
     <link rel="stylesheet" href="materialize/css/materialize.min.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="materialize/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <script src="https://use.fontawesome.com/e87f3c4a42.js"></script>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
   </head>
   <body class="bg-pix">
     <!--Navbar desktop-->
@@ -22,11 +24,19 @@
           <li><a href="disciplinas.html">Disciplinas</a></li>
           <li><a href="galeria.html">Galeria</a></li>
           <li><a href="links.html">Links</a></li>
-          <li><a href="parcerias.html">Parcerias</a></li>
           <li class="right"><a href="login.html">Login</a></li>
         </ul>
       </div>
     </nav>
+  </div>
+  <!--Nav Mobile-->
+  <div class="nav-mobile">
+    <a href="sobre.html"><center><h4 class="fill bg-blue white-font mobile-menu">Sobre o NPDI</h4></center></a>
+    <a href="projetos.html"><center><h4 class="fill bg-blue white-font mobile-menu">Projetos</h4></center></a>
+    <a href="disciplinas.html"><center><h4 class="fill bg-blue white-font mobile-menu">Disciplinas</h4></center></a>
+    <a href="galeria.html"><center><h4 class="fill bg-blue white-font mobile-menu">Galeria</h4></center></a>
+    <a href="links.html"><center><h4 class="fill bg-blue white-font mobile-menu">Links</h4></center></a>
+    <a href="login.html"><center><h4 class="fill bg-blue white-font mobile-menu">Login</h4></center></a>
   </div>
   <!--Fim da navbar-->
   <div class="outdor clearfix">
@@ -69,62 +79,86 @@
     <div class="col3 left">
       <div class="painel">
         <h3>Sobre o NPDI</h3>
-        <p>
-          O NPDI foi criado em janeiro de 1990, logo após a transferência do professor Arnaldo de Albuquerque do departamento de Engenharia Elétrica da Universidade da Paraíba (Atual Universidade Federal de Campina Grande) para o departamento de Ciência da Computação da Universidade Federal de Minas Gerais.
-          Desde seu início, o NPDI sempre procurou interagir com outras instituições, desenvolvendo pesquisa aplicada e buscando soluções e metodologias para os problemas de seus parceiros, entre eles, podemos citar: na UFMG, CECOR, Anatomia Patológica, Engenharia Mecânica, Farmacologia, Geociências, e regionalmente, CDTN/CNEN, CETEC, FUNED, APM, PRODEMGE, SSP/MG.
-          Através do Acordo de Cooperação Internacional CAPES/COFECUB Proc. 204/97/99, com vigência de Janeiro de 1997 a Fevereiro de 2001, envolvendo do lado brasileiro a UFMG e a UNICAMP, e do lado Francês, a École Supérieure d'Ingénieurs en Électrotecnique et Électronique - ESIEE Paris, conseguimos oficializar interação antiga, iniciada em 1989, alem de reforçar nossas atividades de pesquisa e formação humana. Seguindo-se a este convênio, conseguimos a provação de mais dois outros projetos de cooperação CAPES/COFECUB: Proc. 396/02/04, com vigência de Janeiro 2002 a Dezembro 2005, e Proc. 592/08, com vigência de Janeiro 2008 a Dezembro 2011.
-          A sistemática destes convênios financia quatro missões de trabalho por ano, duas no sentido BR/FR e duas no sentido contrário. Envolve também missões de estudo para doutorado e pós-doutorado. No caso do doutorado, há duas possibilidades: estágios de 12 meses (modalidade sanduíche) e 18 meses (modalidade co-tutela, na qual o estudante recebe diplomas das IES brasileira e estrangeira). Foi através de nosso projeto que aconteceu a primeira defesa em co-tutela da UFMG.
-          Além de nos permitir uma constante atualização tecnológica, esta cooperação com a França tem facilitado nosso contato com as seguintes instituições francesas:
-          <ul>
-            <li>
-              École Nationale Supérieure D’Électronique et ses Applications - ENSEA, Équipe Traitement d’Images et du Signal - ETIS, Cergy Pontoise
-            </li>
-            <li>
-              École Nationale Supérieure des Télécommunications – ENST Paris
-            </li>
-            <li>
-              École Nationale Supérieure des Mines de Paris - ENSMP, Centre de Morphologie Mathematique - CMM, Fontainebleau
-            </li>
-            <li>
-              Université Pierre Et Marie Curie – Paris 6, Laboratoire D’Informatique de Paris 6 – LIP6
-            </li>
-          </ul>
-          Nossas primeiras incursões na área de bases de imagens remontam aos anos 90 e foram desenvolvidas juntamente com o prof. Luiz Souza do CECOR/UFMG. Envolveram a análise de imagens de raios-x de estátuas de madeira e o desenvolvimento de protótipo de base de dados para documentos históricos e a análise de imagens de fotografias, em infravermelho, de pinturas. Seguiram-se outros como o RECICOR, coordenado pelo prof. Luiz Souza, e GUIGNARD, coordenado pela profa. Claudina Moresi. Com o Arquivo Público Mineiro (APM), desenvolvemos um protótipo de sistema de informação multimídia para a coleção de documentos do ex-presidente Arthur Bernardes. Este protótipo motivou a direção do APM a levantar recursos externos no sentido de digitalizar novas coleções do seu rico acervo.
-          Em nossa linha de pesquisa em recuperação de informação visual com base no conteúdo, temos trabalhado com bases de dados de fotografias históricas, imagens da Web, alem da detecção de eventos em vídeos digitais, onde temos obtido resultados importantes. Iniciamos em Setembro de 2007 aproximação com a SumSys, empresa de base tecnológica, que possui foco no desenvolvimento de soluções em software para processamento de imagens e vídeos.
-          A formação de alunos de Pós-Graduação tem sido uma preocupação constante de nossas atividades. Foi assim que, neste período, conseguimos formar seis doutores e 29 mestres na área de PDI, além de orientação de cerca de 60 alunos de graduação. Nossos resultados foram publicados em mais de 100 artigos de congressos e periódicos.
-        </p>
-      </div>
-    </div>
-  </div>
-  </body>
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">NPDI</h5>
-          <p class="grey-text text-lighten-4">Núcleo de Processamento Digital de Imagens.
-                                          <br>Departamento de Ciência da Computação.
-                                          <br>Instituto de Ciências Exatas.
-                                          <br>Universidade Federal de Minas Gerais.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li class="grey-text text-lighten-3"><strong>Endereço:</strong> <a target="_blank" class="grey-text text-lighten-3" href="https://www.google.com.br/maps/place/Av.+Pres.+Ant%C3%B4nio+Carlos,+6627+-+Lagoinha,+Belo+Horizonte+-+MG/@-19.8670171,-43.9636391,17z/data=!3m1!4b1!4m5!3m4!1s0xa69063d33adf9d:0xc47b2d3a7dcf4bf2!8m2!3d-19.8670222!4d-43.9614504">
-                      Av. Antônio Carlos 6627 - ICEx - sl. 3055
-                  <br>Pampulha - CEP 31270-010
-                  <br>Belo Horizonte - Minas Gerais - Brasil.</a></li>
-            <li class="grey-text text-lighten-3"><strong>Telefone:</strong> (31) 3409-5854</li>
-            <li class="grey-text text-lighten-3"><strong>Informações:</strong> npdi@listas.dcc.ufmg.br</li>
-          </ul>
+          <p>
+            O NPDI foi criado em janeiro de 1990, logo após a transferência do professor Arnaldo de Albuquerque do departamento de Engenharia Elétrica da Universidade da Paraíba (Atual Universidade Federal de Campina Grande) para o departamento de Ciência da Computação da Universidade Federal de Minas Gerais.
+            Desde seu início, o NPDI sempre procurou interagir com outras instituições, desenvolvendo pesquisa aplicada e buscando soluções e metodologias para os problemas de seus parceiros, entre eles, podemos citar: na UFMG, CECOR, Anatomia Patológica, Engenharia Mecânica, Farmacologia, Geociências, e regionalmente, CDTN/CNEN, CETEC, FUNED, APM, PRODEMGE, SSP/MG.
+            Através do Acordo de Cooperação Internacional CAPES/COFECUB Proc. 204/97/99, com vigência de Janeiro de 1997 a Fevereiro de 2001, envolvendo do lado brasileiro a UFMG e a UNICAMP, e do lado Francês, a École Supérieure d'Ingénieurs en Électrotecnique et Électronique - ESIEE Paris, conseguimos oficializar interação antiga, iniciada em 1989, alem de reforçar nossas atividades de pesquisa e formação humana. Seguindo-se a este convênio, conseguimos a provação de mais dois outros projetos de cooperação CAPES/COFECUB: Proc. 396/02/04, com vigência de Janeiro 2002 a Dezembro 2005, e Proc. 592/08, com vigência de Janeiro 2008 a Dezembro 2011.
+            A sistemática destes convênios financia quatro missões de trabalho por ano, duas no sentido BR/FR e duas no sentido contrário. Envolve também missões de estudo para doutorado e pós-doutorado. No caso do doutorado, há duas possibilidades: estágios de 12 meses (modalidade sanduíche) e 18 meses (modalidade co-tutela, na qual o estudante recebe diplomas das IES brasileira e estrangeira). Foi através de nosso projeto que aconteceu a primeira defesa em co-tutela da UFMG.
+            Além de nos permitir uma constante atualização tecnológica, esta cooperação com a França tem facilitado nosso contato com as seguintes instituições francesas:
+            <ul>
+              <li>
+                École Nationale Supérieure D’Électronique et ses Applications - ENSEA, Équipe Traitement d’Images et du Signal - ETIS, Cergy Pontoise
+              </li>
+              <li>
+                École Nationale Supérieure des Télécommunications – ENST Paris
+              </li>
+              <li>
+                École Nationale Supérieure des Mines de Paris - ENSMP, Centre de Morphologie Mathematique - CMM, Fontainebleau
+              </li>
+              <li>
+                Université Pierre Et Marie Curie – Paris 6, Laboratoire D’Informatique de Paris 6 – LIP6
+              </li>
+            </ul>
+            Nossas primeiras incursões na área de bases de imagens remontam aos anos 90 e foram desenvolvidas juntamente com o prof. Luiz Souza do CECOR/UFMG. Envolveram a análise de imagens de raios-x de estátuas de madeira e o desenvolvimento de protótipo de base de dados para documentos históricos e a análise de imagens de fotografias, em infravermelho, de pinturas. Seguiram-se outros como o RECICOR, coordenado pelo prof. Luiz Souza, e GUIGNARD, coordenado pela profa. Claudina Moresi. Com o Arquivo Público Mineiro (APM), desenvolvemos um protótipo de sistema de informação multimídia para a coleção de documentos do ex-presidente Arthur Bernardes. Este protótipo motivou a direção do APM a levantar recursos externos no sentido de digitalizar novas coleções do seu rico acervo.
+            Em nossa linha de pesquisa em recuperação de informação visual com base no conteúdo, temos trabalhado com bases de dados de fotografias históricas, imagens da Web, alem da detecção de eventos em vídeos digitais, onde temos obtido resultados importantes. Iniciamos em Setembro de 2007 aproximação com a SumSys, empresa de base tecnológica, que possui foco no desenvolvimento de soluções em software para processamento de imagens e vídeos.
+            A formação de alunos de Pós-Graduação tem sido uma preocupação constante de nossas atividades. Foi assim que, neste período, conseguimos formar seis doutores e 29 mestres na área de PDI, além de orientação de cerca de 60 alunos de graduação. Nossos resultados foram publicados em mais de 100 artigos de congressos e periódicos.
+          </p>
         </div>
       </div>
+      <div class="col3 right painel">
+        <h3>Equipe</h3>
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header">Coordenadores</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header">Membros Atuais</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header">Membros Atingos</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="footer-copyright">
+    <footer class="page-footer">
       <div class="container">
-      © 2014 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">NPDI</h5>
+            <p class="grey-text text-lighten-4">Núcleo de Processamento Digital de Imagens.
+                                            <br>Departamento de Ciência da Computação.
+                                            <br>Instituto de Ciências Exatas.
+                                            <br>Universidade Federal de Minas Gerais.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li class="grey-text text-lighten-3"><strong>Endereço:</strong> <a target="_blank" class="grey-text text-lighten-3" href="https://www.google.com.br/maps/place/Av.+Pres.+Ant%C3%B4nio+Carlos,+6627+-+Lagoinha,+Belo+Horizonte+-+MG/@-19.8670171,-43.9636391,17z/data=!3m1!4b1!4m5!3m4!1s0xa69063d33adf9d:0xc47b2d3a7dcf4bf2!8m2!3d-19.8670222!4d-43.9614504">
+                        Av. Antônio Carlos 6627 - ICEx - sl. 3055
+                    <br>Pampulha - CEP 31270-010
+                    <br>Belo Horizonte - Minas Gerais - Brasil.</a></li>
+              <li class="grey-text text-lighten-3"><strong>Telefone:</strong> (31) 3409-5854</li>
+              <li class="grey-text text-lighten-3"><strong>Informações:</strong> npdi@listas.dcc.ufmg.br</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.collapsible').collapsible({
+          accordion : false
+        });
+      });
+    </script>
+  </body>
 </html>

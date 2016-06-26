@@ -1,6 +1,12 @@
 body{
   background-color: #E7F5F5;
 }
+.link{
+  color: black;
+}
+.link:hover{
+  color: #367FFF;
+}
 .bg-pix{
   background-image: url("img/Fundo.png");
   background-size: cover;
@@ -49,6 +55,17 @@ footer.page-footer{
   margin-bottom: 10%;
   padding: 5%;
 }
+.white-font{
+  color: white;
+}
+.mobile-menu{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #0561ff;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
+  box-shadow: 0px 1px 1px 0px rgba(136,136,136,1);
+}
 .bg-blue{
   background-color: #367FFF;
 }
@@ -57,6 +74,11 @@ footer.page-footer{
 }
 .btn-large:hover{
   background-color: #0561ff;
+}
+.fill{
+  width: 100%;
+  margin: 0;
+  border: 0;
 }
 .col1 {
   width: 12.666%;
@@ -177,16 +199,6 @@ footer.page-footer{
   .card-text {
       font-size: 20px;
   }
-}
-@media (max-width: 1450px) {
-  .nav-mobile{
-    display: block;
-  }
-  .nav-desk{
-    display: none;
-  }
-}
-@media (max-width: 1000px) {
   .col1 {
     width: 96%;
   }
@@ -204,5 +216,13 @@ footer.page-footer{
   }
   .col6 {
     width: 96%;
+  }
+}
+@media (max-width: 993px) {
+  .nav-mobile{
+    display: block;
+  }
+  .nav-desk{
+    display: none;
   }
 }
