@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <script src="https://use.fontawesome.com/e87f3c4a42.js"></script>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
     <script src="js/app.js" type="text/javascript"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
   </head>
-  <body class="bg-pix">
+  <body class="bg-pix" >
     <!--Navbar desktop-->
-    <div class="navbar-fixed nav-desk">
+    <div class="navbar-fixed nav-desk" >
     <nav>
       <div class="nav-wrapper bg-blue">
         <ul class="left hide-on-med-and-down">
@@ -26,9 +26,9 @@
           <li><a href="galeria.html">Galeria</a></li>
           <li><a href="links.html">Links</a></li>
         </ul>
-        <ul class="right hide-on-med-and-down">
-          <div ng-app="clock" ng-controloler="clockController"><li class="right">{{currentTime}}</li></div>
-          <li class="right"><a href="login.html">Login</a></li>
+        <ul class="right hide-on-med-and-down" ng-app="clock" ng-controller="clockController as cc">
+          <li>{{currentTime}}</li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </div>
     </nav>
@@ -80,9 +80,6 @@
       </div>
     </div>
     <div class="col3 painel left">
-      <div ng-app="clock" ng-controller="clockController">
-        <p>{{currentTime}}</p>
-      </div>
       <h3>O NPDI</h3>
       <p>
         O Núcleo de Processamento Digital de Imagens do Departamento de Ciência da Computação da UFMG tem como objetivo o desenvolvimento de pesquisa e a formação humana nas áreas de processamento digital de imagens e vídeos, recuperação de informação visual e sistemas de informação multimídia para acervos históricos.
