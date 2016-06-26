@@ -1,6 +1,10 @@
 body{
   background-color: #E7F5F5;
 }
+.galeria-slider{
+  min-height: 45%;
+  max-height: 45%;
+}
 .link{
   color: black;
 }
