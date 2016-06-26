@@ -130,6 +130,11 @@ footer.page-footer{
   padding: 15px;
   color: white;
 }
+.card-selected-blue{
+  background-color: rgba(54, 127, 225, 0.8);
+  padding: 15px;
+  color: white;
+}
 .card-cover-blue:hover{
   background-color: rgba(54, 127, 225, 0.8);
 }
