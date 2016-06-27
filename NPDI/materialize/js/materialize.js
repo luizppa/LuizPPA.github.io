@@ -1960,7 +1960,7 @@ $(document).ready(function(){
         }
         else {
           // Insert as text;
-          toast.innerHTML = html; 
+          toast.innerHTML = html;
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -2539,9 +2539,9 @@ $(document).ready(function(){
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
-			
+
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
+
 		  });
 		});
 		options = options || {
@@ -2742,7 +2742,7 @@ $(document).ready(function(){
         $(this).addClass('tabbed');
         var $this = $(this);
         $this.one('blur', function(e) {
-          
+
           $(this).removeClass('tabbed');
         });
         return;
@@ -3260,6 +3260,8 @@ $(document).ready(function(){
         var $active, $indicators, $interval;
         if ($active_index != -1) { $active = $slides.eq($active_index); }
 
+
+
         // Transitions the caption depending on alignment
         function captionTransition(caption, duration) {
           if (caption.hasClass("center-align")) {
@@ -3270,6 +3272,20 @@ $(document).ready(function(){
           }
           else if (caption.hasClass("left-align")) {
             caption.velocity({opacity: 0, translateX: -100}, {duration: duration, queue: false});
+          }
+        }
+
+        //Both play and pause slider depending on state
+        function playPause() {
+          if ($interval > 0) {
+            setInterval(function () {
+
+            }, 0);
+          }
+          else {
+            setInterval(function () {
+
+            }, options.transition + options.interval);
           }
         }
 
@@ -3346,10 +3362,10 @@ $(document).ready(function(){
             var $indicator = $('<li class="indicator-item"></li>');
 
             // Handle clicks on indicators
-            $indicator.click(function () {
+            /*$indicator.click(function () {
               var $parent = $slider.parent();
               var curr_index = $parent.find($(this)).index();
-              moveToSlide(curr_index);
+              moveToSlide(curr_index);*/
 
               // reset interval
               clearInterval($interval);

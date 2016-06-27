@@ -7392,13 +7392,15 @@ input[type=range]:focus::-ms-fill-upper {
   height: 16px;
   width: 16px;
   margin: 0 12px;
-  background-color: #e0e0e0;
+  background-color: #367FFF;
+  color: #367FFF;
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #0561ff;
+  color: #0561ff;
 }
 
 .carousel {

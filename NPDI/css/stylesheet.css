@@ -1,6 +1,9 @@
 body{
   background-color: #E7F5F5;
 }
+.slide-button{
+  margin: 2%;
+}
 .galeria-slider{
   min-height: 45%;
   max-height: 45%;
@@ -139,6 +142,9 @@ footer.page-footer{
   color: white;
 }
 .card-selected-blue{
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgba(54, 127, 225, 0.8);
   padding: 15px;
   color: white;

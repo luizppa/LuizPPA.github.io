@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
     <script src="js/app.js" type="text/javascript"></script>
   </head>
-  <body class="bg-pix">
+  <body class="bg-pix" onload="pauseSlide()">
     <!--Navbar desktop-->
     <div class="navbar-fixed nav-desk">
     <nav>
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div class="col3 painel left">
-      <h3>Documentos Históricos Com Tinta Reversa</h3>
+      <center><h3>Documentos Históricos Com Tinta Reversa</h3></center>
       <div class="slider">
         <ul class="slides galeria-slider">
           <li>
@@ -122,6 +122,8 @@
           </li>
         </ul>
       </div>
+        <a class="btn bg-blue left col2 slide-button" onclick="previousSlide()">Anterior</a>
+        <a class="btn bg-blue right col2 slide-button" onclick="nextSlide()">Próximo</a>
     </div>
   </div>
   <footer class="page-footer">
@@ -157,6 +159,8 @@
   <script>
     $(document).ready(function(){
     $('.slider').slider({full_width: true});
+    //$('.slider').slider({indicators:false});
+    $('.slider').slider('pause');
     });
   </script>
   </body>
