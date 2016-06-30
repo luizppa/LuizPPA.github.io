@@ -124,6 +124,7 @@ footer.page-footer{
   width: 98%;
 }
 .card{
+  margin: 11px;
   padding: 0px;
   border: 0px;
   background-size: cover;
