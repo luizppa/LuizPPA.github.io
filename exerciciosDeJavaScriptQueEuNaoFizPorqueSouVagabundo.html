@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="master.css">
     <script src="main.js"></script>
     <link rel="icon" href="img/favicon.png" type="image/gif">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="master.css">
   </head>
   <body>
     <!--=======NavBar==========-->
@@ -146,6 +147,33 @@
           (Corrige esse por último)<br>
           <a class="waves-effect waves-light btn brown" onclick="exercicio6_11()">Indo um pouco mais longe...</a><br><br>
         </p>
+        <a href="https://github.com/DAW-2016/E13-JQuery" class="link" target="_blank">
+          <h4>
+            JQuery:<br>
+          </h4>
+        </a>
+        <p>
+          <p>Muda a cor do background da página</p><br>
+          <a id="backToNormal" class="waves-effect waves-light btn brown">Volta ao normal</a><br><br>
+          <a id="colorToRed" class="waves-effect waves-light btn red">Vermelho</a><br><br>
+          <a id="colorToYellow" class="waves-effect waves-light btn yellow">Amarelo</a><br><br>
+          <a id="colorToBlue" class="waves-effect waves-light btn blue">Azul</a><br><br>
+          <a id="prepend" class="waves-effect waves-light btn brown">Insere um índice aos itens da lista</a>
+          <ul>
+            <li class="toPrepend">Primeiro item</li>
+            <li class="toPrepend">Segundo item</li>
+            <li class="toPrepend">Terceiro item</li>
+          </ul><br>
+          <a id="exercicio7_3" class="waves-effect waves-light btn brown">Encontra o valor "BMW" fornecido</a><br><br>
+          <p>Carro 1:</p>
+          <p>
+            (O formulário de seleção simplesmente não funciona, o trecho jQuery ta ai.)
+          </p>
+          <p>Clique sobre os itens abaixo para exibir suas propriedas css</p>
+          <a class="waves-effect waves-light btn brown showCSS">Click Me</a><br><br>
+          <img class="showCSS" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash2/t31.0-8/1262905_10200836488982457_726560198_o.jpg" width="500px" /><br><br>
+          <a id="exercicio7_5" class="waves-effect waves-light btn brown">Adiciona uma classe a todos os parágrafos</a><br><br>
+        </p>
       </div>
       <div class="col3 left painel font-color-brown" style="min-height: 390px;">
         <center>
@@ -235,6 +263,35 @@
             </div>
           </div>
     </footer>
+    <script type="text/javascript">
+      $("#colorToRed").click(function(){
+        $("body").css("background-color", "red");
+      });
+      $("#colorToBlue").click(function(){
+        $("body").css("background-color", "blue");
+      });
+      $("#colorToYellow").click(function(){
+        $("body").css("background-color", "yellow");
+      });
+      $("#backToNormal").click(function(){
+        $("body").css("background-color", "#FFF9E6");
+      });
+      $("#prepend").click(function(){
+        $(".toPrepend").prepend(function(){
+          index++;
+          $("#prepend").addClass("disabled");
+          return "["+index+"] ";
+        })
+      });
+      $("#exercicio7_1").click(function(){
+        $("option[value='BMW']").append(" <- Aqui!");
+      });
+      $(".showCSS").click(function(){
+        alert("Color: "+$(this).css("color")+" background-color: "+$(this).css("background-color")+" height: "+$(this).css("height")+" width: "+$(this).css("width")+" padding: "+$(this).css("padding")+" margin: "+$(this).css("margin"));
+      });
+      $("#exercicio7_5").click(function(){
+        $("p").addClass("myclass");
+      });
     </script>
   </body>
 </html>

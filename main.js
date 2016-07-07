@@ -1,3 +1,4 @@
+var index = 0;
 //-------------------------javascript parte 1---------------------------------//
 function exercicio1_1(a){
   var list = "";

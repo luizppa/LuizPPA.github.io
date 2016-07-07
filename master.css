@@ -4,6 +4,10 @@ body{
   line-height: 1.42857143;
   letter-spacing: 4px;
 }
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #523416;
+ box-shadow: 0 1px 0 0 #523416;
+}
 div{
   background-size: cover;
 }
@@ -135,6 +139,7 @@ footer.page-footer{
   overflow: auto;
   zoom: 1;
 }
+.myclass { color: #FA5858; }
 @media (max-width: 1080px) {
   .col1, .col2, .col3, .col4, .col5, .col6 {
     padding: 15px;
